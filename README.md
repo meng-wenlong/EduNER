@@ -1,5 +1,5 @@
 # education-ner-dataset
 
-> DisciplineNER21 is a named entity recognition dataset for education domain.
+> EduNER is a named entity recognition dataset for education research.
 
 ## This dataset is coming soon...
