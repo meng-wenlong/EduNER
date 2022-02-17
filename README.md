@@ -2,6 +2,7 @@
 
 > EduNER is a Chinese named entity recognition dataset for education research.
 
+```python
 ├── models
 │   ├── BERT-CRF
 │   ├── BERT-NER
@@ -17,6 +18,7 @@
 │   ├── SLK-NER
 │   └── TENER
 └── sample_EduNER
+```
 
 ## This full version dataset is coming soon...
 - `sample_EduNER/` directory contains the sampleing version of our dataset.
