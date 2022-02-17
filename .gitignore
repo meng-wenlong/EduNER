@@ -5,3 +5,5 @@ DisciplineNER/
 __pycache__/
 
 _git/
+
+.gitignore
