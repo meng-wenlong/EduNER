@@ -28,4 +28,4 @@
 ## models
 - `models/` directory contains the recent SOTA models
 - LexiconAugementedNER includes SoftLexicon+CNN/Transformer/LSTM models.
-- CLNER includes the CL-KL and CL-${L_2}$ models
+- CLNER includes the CL-KL and CL-L<sub>2</sub> models.
