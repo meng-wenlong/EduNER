@@ -185,7 +185,6 @@ def evaluate(data, model, name):
     with open('result/classification_report' + name + '.txt', 'w', encoding='utf-8') as w:
         w.write(classification_report_res)
         w.close()
-    print("已经在result文件下输出classification的报告文件!")
     return speed, acc, p, r, f, pred_results, gazes
 
 
@@ -467,7 +466,7 @@ if __name__ == '__main__':
     parser.add_argument('--seed', default=1023, type=int)
     parser.add_argument('--labelcomment', default="")
     parser.add_argument('--resultfile', default="result/result.txt")
-    parser.add_argument('--num_iter', default=150, type=int)
+    parser.add_argument('--num_iter', default=100, type=int)
     parser.add_argument('--num_layer', default=4, type=int)
     parser.add_argument('--lr', type=float, default=0.005)
     parser.add_argument('--batch_size', type=int, default=30)
