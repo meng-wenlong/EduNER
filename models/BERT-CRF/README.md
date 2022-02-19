@@ -93,9 +93,8 @@ The overall performance of BERT on **dev(test)**:
 | BERT+Span+label_smoothing   | 0.9566(0.9568) | 0.9624(0.9656)     | 0.9595(0.9612) |
 
 
-## 使用过程记录
+## 实验注意事项
 
 1. 参数配置有三个地方：tools/finetunning_argparse.py; run_ner_crf.py; run_ner_crf.sh;
 2. 数据集中不能出现奇怪符号，比如：""""，tab分隔符，换行不能出现空格；
-3. 在run_ner_crf.py中增加了输出原始输入的文本，便于核对哪些内容预测错了。
-4. 调用自定义的脚本来获取classification_report的结果。
+3. 调用run_test.py获取classification_report的报告结果。
