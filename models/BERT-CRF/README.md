@@ -97,4 +97,5 @@ The overall performance of BERT on **dev(test)**:
 
 1. 参数配置有三个地方：tools/finetunning_argparse.py; run_ner_crf.py; run_ner_crf.sh;
 2. 数据集中不能出现奇怪符号，比如：""""，tab分隔符，换行不能出现空格；
-3. 调用run_test.py获取classification_report的报告结果。
+3. 调用summary_classification.py获取classification_report的报告结果。
+

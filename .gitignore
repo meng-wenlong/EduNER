@@ -1,9 +1,1 @@
-# Dataset
-DisciplineNER/
-
-.vscode/
-__pycache__/
-
-_git/
-
 .gitignore

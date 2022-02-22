@@ -56,5 +56,3 @@ The pretrained embeddings(word embedding, char embedding and bichar embedding) a
 `python main.py --train data/MSRANER/train.char.bmes --dev data/MSRANER/dev.char.bmes --test data/MSRANER/test.char.bmes --modelname MSRA --savedset data/MSRA.dset`
 
 4. To train/test your own data: modify the command with your file path and run.
-
-5. 作者默认使用了cnn模型结果，更改使用transformer来训练；

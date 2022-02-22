@@ -29,8 +29,9 @@ python run.py --help
 ```
 
 ## Result
-We use `custom_metric.py` to evaluate the model's performance on test data, and
+We use `summary_classificatio.py` to evaluate the model's performance on test data, and
 the experiment result on testing data of the trained model is as follows:
+
 ```
 processed 172601 tokens with 6192 phrases; found: 5660 phrases; correct: 4820.
 accuracy:  97.70%; precision:  85.16%; recall:  77.84%; FB1:  81.34
@@ -51,8 +52,8 @@ accuracy:  97.70%; precision:  85.16%; recall:  77.84%; FB1:  81.34
   1. test 模型的时候，test集中的结果是不按顺序写入到结果的；
   2. 更改模型的参数配置，只需要更改docpot中的default参数即可；
   3. 模型输入的数据的格式有细微差别：是通过tab键进行分割，而不是空格；
-  4. 从train、test中分别取前10000个字符加入到dev中；（总共390）
 
   ## 实验过程记录
 
   1. 任何一个新数据的训练，首先需要使用sh run.sh vocab 生成新的词表和标签表；然后使用sh run.sh train/test进行训练或测试；
+    2. 使用summary_classification.py报告模型性能；
