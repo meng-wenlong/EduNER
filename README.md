@@ -40,4 +40,4 @@ password: edu123
 ##  Beta application 
 
 - A beta educational tool ( [EDUNERScore](http://openaied.cn/ents) ) based on our dataset can be accessed. The tool is based on NER technology and allows for the analysis of unstructured educational texts in real time. Due to limited computing resources, it is currently possible to view the cached results. Unfortunately, it is now only available in Chinese.
-- User instruction, ![operation](https://github.com/xuli19/EduNER/blob/main/img/EDUScore.png)
+- User instruction, ![operation](https://github.com/xuli19/EduNER/blob/main/img/sample.gif)
