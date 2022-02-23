@@ -21,13 +21,13 @@
 ```
 
 ## EduNER：the full version dataset is coming soon...
-- `sample_EduNER/` directory contains the sampleing version of our dataset.
-- The related resource paper is currently under review and a sampled version of the dataset is currently released. After final proofing, the full version of the EduNER dataset will be publicly accessible.
-- A snapshot of <img src="https://github.com/xuli19/EduNER/blob/main/img/EDUNER_schema.png" alt="EduNER schema" style="zoom:50%;" />
+- `sample_EduNER/` directory contains the sampling version of our dataset.
+- The related <em>resource paper ✨</em> is currently under review and a sampled version of the dataset is currently released. After final proofing, the full version of the EduNER dataset will be publicly accessible.
+- A snapshot of schema<img src="https://github.com/xuli19/EduNER/blob/main/img/EDUNER_schema.png" alt="EduNER schema" style="zoom:50%;" />
 
 
 ## Models
-- `models/` directory contains the recent SOTA models
+- `models/` directory contains the recent SOTA models.
 - LexiconAugementedNER includes SoftLexicon+CNN/Transformer/LSTM models.
 - CLNER includes the CL-KL and CL-L<sub>2</sub> models.
 
