@@ -39,6 +39,6 @@ password: edu123
 ```
 ##  Beta application 
 
-- A beta educational tool ( [EDUNERScore](http://openaied.cn/ents) ) based on our dataset can be accessed. The tool is based on NER technology and allows for the analysis of unstructured educational texts in real time. Specifically, the tool can extract the discipline entity from a large-scale unstructured texts, e.g., discouse content, online forums, writing documents etc. It will help the stakeholder to better understand the learning or teaching activity. 
+- A beta educational tool ( [EDUNERScore](http://openaied.cn/ents) ) based on our dataset can be accessed. The tool is based on NER technology and allows for the analysis of unstructured educational texts in real time. Specifically, the tool can extract the discipline entity from a large-scale unstructured texts, e.g., discourse content, online forums, writing documents etc. It will help the stakeholder to better understand the learning or teaching activity. 
 - Due to limited computing resources, only cached results can be viewed at current. In addition, only the Chinese version is now available.
 - User instruction, ![operation](https://github.com/xuli19/EduNER/blob/main/img/sample.gif)
