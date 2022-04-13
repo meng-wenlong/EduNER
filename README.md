@@ -43,7 +43,7 @@ password: edu123
 - Due to limited computing resources, only cached results can be viewed at current. In addition, only the Chinese version is now available.
 - Instruction ![operation](https://github.com/xuli19/EduNER/blob/main/img/sample.gif)
 
-## LICENSE
+## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
