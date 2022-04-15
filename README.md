@@ -33,8 +33,7 @@
 - CLNER includes the CL-KL and CL-L<sub>2</sub> models.
 ### tutorial
 - Pre-trained embedding 
-
-we use the Chinese pre-trained character or word embeddings, e.g., [ctb.50d](), [gigaword\_chn.all.a2b.bi.ite50](), and [gigaword\_chn.all.a2b.uni.ite50] in line with \citep{Yang_2017_Neural}. As pre-trained language model, we use the Chinese BERT:[bert-base-chinese](https://huggingface.co/bert-base-chinese). 
+	we use the Chinese pre-trained character or word embeddings, e.g., [ctb.50d](), [gigaword\_chn.all.a2b.bi.ite50](), and [gigaword\_chn.all.a2b.uni.ite50] in line with (Yang et al., 2017). As pre-trained language model, we use the Chinese BERT:[bert-base-chinese](https://huggingface.co/bert-base-chinese). 
 
 - Hyper parameters
 ## Online Annotation Platform
