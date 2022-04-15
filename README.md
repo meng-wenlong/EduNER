@@ -41,24 +41,24 @@
 
 - Hyper parameters
 
-|                           | models | epoch | max length | learning rate | dropout rate | crf learning rate | embeddings |
-| :------------------------ | :----- | :---- | :--------- | :------------ | :----------- | :---------------- | :--------- |
-| example                   | 100    | 256   | 0.001      | 0.5           | X            | X                 |            |
-| BiLSTM+CRF                |        |       |            |               |              |                   |            |
-| BERT+CRF                  |        |       |            |               |              |                   |            |
-| LR-CNN                    |        |       |            |               |              |                   |            |
-| TENER                     |        |       |            |               |              |                   |            |
-| LGN                       |        |       |            |               |              |                   |            |
-| FLAT+BERT                 |        |       |            |               |              |                   |            |
-| SoftLexicon (CNN)         |        |       |            |               |              |                   |            |
-| SoftLexicon (Transformer) |        |       |            |               |              |                   |            |
-| SoftLexicon (LSTM)        |        |       |            |               |              |                   |            |
-| MECT4CNER                 |        |       |            |               |              |                   |            |
-| SLK-NER                   |        |       |            |               |              |                   |            |
-| LEBERT                    |        |       |            |               |              |                   |            |
-| FLERT                     |        |       |            |               |              |                   |            |
-| CL-KL                     |        |       |            |               |              |                   |            |
-| CL-L2                     |        |       |            |               |              |                   |            |
+| models                    | epoch | max length | learning rate | dropout rate | crf learning rate | embeddings |
+| :------------------------ | :---- | :--------- | :------------ | :----------- | :---------------- | :--------- |
+| example                   | 100   | 256        | 0.001         | 0.5          | X                 |            |
+| BiLSTM+CRF                |       |            |               |              |                   |            |
+| BERT+CRF                  |       |            |               |              |                   |            |
+| LR-CNN                    |       |            |               |              |                   |            |
+| TENER                     |       |            |               |              |                   |            |
+| LGN                       |       |            |               |              |                   |            |
+| FLAT+BERT                 |       |            |               |              |                   |            |
+| SoftLexicon (CNN)         |       |            |               |              |                   |            |
+| SoftLexicon (Transformer) |       |            |               |              |                   |            |
+| SoftLexicon (LSTM)        |       |            |               |              |                   |            |
+| MECT4CNER                 |       |            |               |              |                   |            |
+| SLK-NER                   |       |            |               |              |                   |            |
+| LEBERT                    |       |            |               |              |                   |            |
+| FLERT                     |       |            |               |              |                   |            |
+| CL-KL                     |       |            |               |              |                   |            |
+| CL-L2                     |       |            |               |              |                   |            |
 
 ## Online Annotation Platform
 
