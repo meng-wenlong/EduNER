@@ -3,7 +3,7 @@
 > EduNER is a Chinese named entity recognition dataset for education research.
 
 ```python
-├── models
+├── Models
 │   ├── BERT-CRF
 │   ├── BERT-NER
 │   ├── BiLSTM-CRF
@@ -27,16 +27,28 @@
 
 
 ## Models
+### basic
 - `models/` directory contains the recent SOTA models.
 - LexiconAugementedNER includes SoftLexicon+CNN/Transformer/LSTM models.
 - CLNER includes the CL-KL and CL-L<sub>2</sub> models.
+### tutorial
+- Pre-trained embedding 
 
+we use the Chinese pre-trained character or word embeddings, e.g., [ctb.50d](), [gigaword\_chn.all.a2b.bi.ite50](), and [gigaword\_chn.all.a2b.uni.ite50] in line with \citep{Yang_2017_Neural}. As pre-trained language model, we use the Chinese BERT:[bert-base-chinese](https://huggingface.co/bert-base-chinese). 
+
+- Hyper parameters
 ## Online Annotation Platform
 - We provide a temporary account to test [the annotation tool](http://openaied.cn/) 
 ```markdown
 username: edu
 password: edu123
 ```
+
+## Update plan
+EduNER dataset project is a long-term plan, we expect the dataset to cover more languages and disciplines in higher eduercation. Althgouh this goal is obviously not achieved in a short duration, the dataset will expand to one or two discipline, and will acquire a bigger scale dataset can be used for teaching or learning context. 
+- *Pedagogic Psychology* discipline will be added in the next year (about: 06.2022 ~ 06.2023).
+- *Policy, Conference* related corpus will be added in the next phase (about: 08.2022 ~ 01.2023).
+
 ##  Beta application 
 
 - A beta educational tool ( [EDUNERScore](http://openaied.cn/ents) ) based on our dataset can be accessed. The tool is based on NER technology and allows for the analysis of unstructured educational texts in real time. Specifically, the tool can extract the discipline entity from a large-scale unstructured texts, e.g., discourse content, online forums, writing documents etc. It will help the stakeholder to better understand the learning or teaching activity. 
