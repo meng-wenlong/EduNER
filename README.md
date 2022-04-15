@@ -58,7 +58,7 @@
 | LEBERT                    |       |            |            |               |              |                   |            |
 | FLERT                     |       |            |            |               |              |                   |            |
 | CL-KL                     |       |            |            |               |              |                   |            |
-| CL-L2                     |       |            |            |               |              |                   |            |
+| CL-L<sub>2</sub>          |       |            |            |               |              |                   |            |
 
 ## Online Annotation Platform
 
