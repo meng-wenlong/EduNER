@@ -49,7 +49,7 @@
 | LR-CNN                    |       |            |            |               |              |                   |            |
 | TENER                     |       |            |            |               |              |                   |            |
 | LGN                       |       |            |            |               |              |                   |            |
-| FLAT+BERT                 | 100   | 10         | **200**    | 0.0006        | 0.5          |                   |            |
+| FLAT+BERT                 |       |            |            |               |              |                   |            |
 | SoftLexicon (CNN)         |       |            |            |               |              |                   |            |
 | SoftLexicon (Transformer) |       |            |            |               |              |                   |            |
 | SoftLexicon (LSTM)        |       |            |            |               |              |                   |            |
