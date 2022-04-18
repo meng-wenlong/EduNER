@@ -45,21 +45,21 @@ model:
     use_crf: true
     use_rnn: false
     word_dropout: 0.1
-model_name: xlmr-first_10epoch_1batch_4accumulate_0.000005lr_10000lrrate_eng_monolingual_crf_fast_norelearn_sentbatch_sentloss_finetune_nodev_0.3temperature_multiview_posterior_discipline_joint_bertscore_eos_ner5
+model_name: xlmr-first_10epoch_1batch_4accumulate_0.000005lr_10000lrrate_eng_monolingual_crf_fast_norelearn_sentbatch_sentloss_finetune_nodev_0.3temperature_multiview_posterior_edu_joint_bertscore_eos_ner5
 ner:
-  ColumnCorpus-Discipline:
+  ColumnCorpus-Edu:
     column_format:
       0: text
       1: ner
-    data_folder: /home/lixu/baseline_ner/CLNER/CLNER_datasets/DisciplineNER
+    data_folder: /home/lixu/baseline_ner/CLNER/CLNER_datasets/EduNER
     tag_to_bioes: ner
-  Corpus: ColumnCorpus-Discipline
+  Corpus: ColumnCorpus-Edu
   professors:
     config/single-de-ner.yaml: CONLL_03_GERMAN
     config/single-en-ner.yaml: CONLL_03
     config/single-es-ner.yaml: CONLL_03_SPANISH
     config/single-nl-ner.yaml: CONLL_03_DUTCH
-  tag_dictionary: resources/taggers/discipline_kl_ner_tags_cleaned_joint.pkl
+  tag_dictionary: resources/taggers/edu_kl_ner_tags_cleaned_joint.pkl
   teachers:
     ? config_gen/multi-bert_flair_word_char_charcnn_300epoch_32batch_0.1lr_256hidden_de_monolingual_crf_sentloss_10patience_fast_sentbatch_relearn_fasttext_freeze_nodev_panx_ner45.yaml
     : PANX-DE

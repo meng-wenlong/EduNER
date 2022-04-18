@@ -10,8 +10,8 @@ from Modules.StaticEmbedding import StaticEmbedding
 from Utils.utils import get_bigrams, get_skip_path, Trie
 
 
-@cache_results(_cache_fp='cache/discipline_ner',_refresh=False)
-def load_discipline_ner(path,char_embedding_path=None,bigram_embedding_path=None,index_token=True,train_clip=False,
+@cache_results(_cache_fp='cache/edu_ner',_refresh=False)
+def load_edu_ner(path,char_embedding_path=None,bigram_embedding_path=None,index_token=True,train_clip=False,
                        char_min_freq=1,bigram_min_freq=1,only_train_min_freq=0):
     # from fastNLP.io.loader import ConllLoader
     # from utils import get_bigrams

@@ -242,8 +242,8 @@ elif args.dataset == 'msra':
                                                            )
 
 
-elif args.dataset == 'discipline':
-    datasets,vocabs,embeddings = load_discipline_ner(discipline_ner_path,yangjie_rich_pretrain_unigram_path,yangjie_rich_pretrain_bigram_path,
+elif args.dataset == 'edu':
+    datasets,vocabs,embeddings = load_edu_ner(edu_ner_path,yangjie_rich_pretrain_unigram_path,yangjie_rich_pretrain_bigram_path,
                                                     _refresh=refresh_data,index_token=False,train_clip=args.train_clip,
                                                     _cache_fp=raw_dataset_cache_name,
                                                     char_min_freq=args.char_min_freq,

@@ -10,7 +10,7 @@ lk_word_path_2 = '/data2/lx/embeddings/sgns.merge.word'
 
 
 
-discipline_ner_path = '/data2/lx/corpus/DisciplineNER'
+edu_ner_path = '/data2/lx/corpus/EduNER'
 ontonote4ner_cn_path = '/remote-home/xnli/data/corpus/sequence_labelling/chinese_ner/OntoNote4NER'
 msra_ner_cn_path = '/remote-home/xnli/data/corpus/sequence_labelling/chinese_ner/MSRANER'
 resume_ner_path = '/remote-home/xnli/data/corpus/sequence_labelling/chinese_ner/ResumeNER'

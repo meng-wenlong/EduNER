@@ -1,6 +1,6 @@
 from seqeval.metrics import classification_report
 
-with open("data/result/NER/discipline/lebertcrf/WCBertCRF_Token-Test-42100.txt", "r") as f:
+with open("data/result/NER/edu/lebertcrf/WCBertCRF_Token-Test-42100.txt", "r") as f:
     data = f.read()
     data = data.split("\n")
     for i in range(len(data)):
