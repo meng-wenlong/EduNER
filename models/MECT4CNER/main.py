@@ -243,8 +243,8 @@ elif args.dataset == 'msra':
                                                    bigram_min_freq=args.bigram_min_freq,
                                                    only_train_min_freq=args.only_train_min_freq
                                                    )
-elif args.dataset == 'discipline':
-    datasets,vocabs,embeddings = load_discipline_ner(discipline_ner_path,yangjie_rich_pretrain_unigram_path,yangjie_rich_pretrain_bigram_path,
+elif args.dataset == 'edu':
+    datasets,vocabs,embeddings = load_edu_ner(edu_ner_path,yangjie_rich_pretrain_unigram_path,yangjie_rich_pretrain_bigram_path,
                                                     _refresh=refresh_data,index_token=False,train_clip=args.train_clip,
                                                     _cache_fp=raw_dataset_cache_name,
                                                     char_min_freq=args.char_min_freq,
@@ -313,7 +313,7 @@ elif args.dataset == 'weibo':
     args.components_embed_lr_rate = 0.0014
     args.momentum = 0.9
     args.epoch = 50
-elif args.dataset == 'discipline':
+elif args.dataset == 'edu':
     args.radical_dropout = 0.2
     args.lr = 0.0014
     args.components_embed_lr_rate = 0.0012
@@ -420,7 +420,7 @@ loss = LossInForward()
 encoding_type = 'bmeso'
 if args.dataset == 'weibo' or args.dataset == 'tc':
     encoding_type = 'bio'
-elif args.dataset == 'discipline':
+elif args.dataset == 'edu':
     encoding_type = 'bio'
 
 f1_metric = SpanFPreRecMetric(vocabs['label'], pred='pred', target='target', seq_len='seq_len',

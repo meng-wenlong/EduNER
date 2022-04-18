@@ -6,7 +6,7 @@ from flair.trainers import ModelTrainer
 
 columns = {0: 'text', 1: 'ner'}
 
-data_folder = '/home/lixu/baseline_ners/Flert/datasets/DisciplineNER'
+data_folder = '/home/lixu/baseline_ners/Flert/datasets/EduNER'
 
 corpus: Corpus = ColumnCorpus(data_folder, columns,
                               train_file='train.csv',

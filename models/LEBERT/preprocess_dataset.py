@@ -3,8 +3,8 @@ import os
 
 mode = "test"
 
-read_path = "data/dataset/NER/discipline/" + mode + ".csv"
-save_path = "data/dataset/NER/discipline/" + mode + "_withE.csv"
+read_path = "data/dataset/NER/edu/" + mode + ".csv"
+save_path = "data/dataset/NER/edu/" + mode + "_withE.csv"
 
 with open(read_path, "r") as f_to_read:
     file = f_to_read.read()
