@@ -1,3 +1,4 @@
+
 # Education-ner-dataset
 
 > EduNER is a Chinese named entity recognition dataset for education research.
@@ -49,16 +50,17 @@
 | LR-CNN                    |       |            |            |               |              |                   |            |
 | TENER                     |       |            |            |               |              |                   |            |
 | LGN                       |       |            |            |               |              |                   |            |
-| FLAT+BERT                 |       |            |            |               |              |                   |            |
+| FLAT+BERT                 | 100   | 10         | **200**    | 0.0006        | 0.5          |                   |            |
 | SoftLexicon (CNN)         |       |            |            |               |              |                   |            |
 | SoftLexicon (Transformer) |       |            |            |               |              |                   |            |
 | SoftLexicon (LSTM)        |       |            |            |               |              |                   |            |
-| MECT4CNER                 |       |            |            |               |              |                   |            |
-| SLK-NER                   |       |            |            |               |              |                   |            |
-| LEBERT                    |       |            |            |               |              |                   |            |
-| FLERT                     |       |            |            |               |              |                   |            |
-| CL-KL                     |       |            |            |               |              |                   |            |
-| CL-L<sub>2</sub>          |       |            |            |               |              |                   |            |
+| MECT4CNER                 | 100   | 10         | **200**    | 0.0014        | 0.2          |                   |            |
+| SLK-NER                   | 30    | 32         | 256        | 5e-5          | 0.5          |                   |            |
+| LEBERT                    | 20    | 4          | 256        | 1e-5          | 0.1          |                   |            |
+| FLERT                     | 10    | 4          | 512        | 5e-6          | 0.1          |                   |            |
+| CL-KL                     | 10    | 1          | **512**    | 5e-6          | 0.1          |                   |            |
+| CL-L<sub>2</sub>          | 10    | 2          | **512**    | 5e-6          | 0.1          |                   |            |
+
 
 ## Online Annotation Platform
 
