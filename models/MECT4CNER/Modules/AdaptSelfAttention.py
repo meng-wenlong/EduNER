@@ -45,7 +45,7 @@ class AdaptSelfAttention(nn.Module):
             self.randomAttention = nn.Parameter(torch.empty(1, self.num_heads, 477, 477), requires_grad=True)
         if dataset == 'tc':
             self.randomAttention = nn.Parameter(torch.empty(1, self.num_heads, 398, 398), requires_grad=True)
-        if dataset == 'discipline':
+        if dataset == 'edu':
             self.randomAttention = nn.Parameter(torch.empty(1, self.num_heads, 662, 662), requires_grad=True)
 
         nn.init.kaiming_normal_(self.randomAttention, a=math.sqrt(5))

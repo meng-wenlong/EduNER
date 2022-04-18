@@ -737,7 +737,7 @@ def main():
                 writer.write("{} = {}\n".format(key, str(result[key])))
 
         # Save predictions
-        output_test_predictions_file = 'data/discipline/w_bert_test.char.bmes'
+        output_test_predictions_file = 'data/edu/w_bert_test.char.bmes'
         content_list = []
         with open(os.path.join(args.data_dir, "test.char.bmes"), 'r', encoding="utf-8") as f:
             chars = []

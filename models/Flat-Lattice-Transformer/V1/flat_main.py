@@ -294,8 +294,8 @@ elif args.dataset == 'msra':
                                                            only_train_min_freq=args.only_train_min_freq
                                                            )
 
-elif args.dataset == 'discipline':
-    datasets,vocabs,embeddings = load_discipline_ner(discipline_ner_path,yangjie_rich_pretrain_unigram_path,yangjie_rich_pretrain_bigram_path,
+elif args.dataset == 'edu':
+    datasets,vocabs,embeddings = load_edu_ner(edu_ner_path,yangjie_rich_pretrain_unigram_path,yangjie_rich_pretrain_bigram_path,
                                                     _refresh=refresh_data,index_token=False,train_clip=args.train_clip,
                                                     _cache_fp=raw_dataset_cache_name,
                                                     char_min_freq=args.char_min_freq,
@@ -627,7 +627,7 @@ loss = LossInForward()
 encoding_type = 'bmeso'
 if args.dataset == 'weibo':
     encoding_type = 'bio'
-elif args.dataset == 'discipline':
+elif args.dataset == 'edu':
     encoding_type = 'bio'
 f1_metric = SpanFPreRecMetric(vocabs['label'],pred='pred',target='target',seq_len='seq_len',encoding_type=encoding_type)
 acc_metric = AccuracyMetric(pred='pred',target='target',seq_len='seq_len',)

@@ -1,16 +1,16 @@
 CUDA_VISIBLE_DEVICES=1 python3 -m torch.distributed.launch --master_port 13517 --nproc_per_node=1 \
        Trainer.py --do_train --do_eval --do_predict --evaluate_during_training \
-                  --data_dir="data/dataset/NER/discipline" \
-                  --output_dir="data/result/NER/discipline/lebertcrf" \
+                  --data_dir="data/dataset/NER/edu" \
+                  --output_dir="data/result/NER/edu/lebertcrf" \
                   --config_name="data/berts/bert/config.json" \
                   --model_name_or_path="/data2/lx/bert-base-chinese/pytorch_model.bin" \
                   --vocab_file="/data2/lx/bert-base-chinese/vocab.txt" \
                   --word_vocab_file="/data2/lx/embeddings/tencent_vocab.txt" \
                   --max_scan_num=1000000 \
                   --max_word_num=5 \
-                  --label_file="data/dataset/NER/discipline/labels.txt" \
+                  --label_file="data/dataset/NER/edu/labels.txt" \
                   --word_embedding="/data2/lx/embeddings/Tencent_AILab_ChineseEmbedding.txt" \
-                  --saved_embedding_dir="data/dataset/NER/discipline" \
+                  --saved_embedding_dir="data/dataset/NER/edu" \
                   --model_type="WCBertCRF_Token" \
                   --seed=106524 \
                   --per_gpu_train_batch_size=4 \

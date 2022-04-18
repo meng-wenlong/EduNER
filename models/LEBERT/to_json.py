@@ -23,7 +23,7 @@ def convert(task_name, mode="train"):
     BMES_to_json(in_file, out_file)
 
 if __name__ == "__main__":
-    task_name = "NER/discipline"
+    task_name = "NER/edu"
     convert(task_name, "train")
     convert(task_name, "dev")
     convert(task_name, "test")
